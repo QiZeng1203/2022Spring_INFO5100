@@ -13,6 +13,5 @@ public class Main {
         System.out.println(p1.getPerimeter());
         System.out.println(p2.getArea());
         System.out.println(p2.getPerimeter());
-
     }
 }
