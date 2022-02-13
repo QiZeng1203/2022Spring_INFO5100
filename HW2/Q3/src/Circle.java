@@ -26,11 +26,12 @@ public class Circle extends Shape {
     }
 
     public void computePerimeter() {
-        System.out.println("The perimeter of Circle is " + Math.PI * radius);
+        System.out.println("The perimeter of Circle is " + 2 * Math.PI * radius);
     }
 
+    @Override
     public void display() {
-        System.out.println("The name is " + this.getName()); //
+        System.out.println("The name is " + this.getName());
         this.computeArea();
         this.computePerimeter();
     }

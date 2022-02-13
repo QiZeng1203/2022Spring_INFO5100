@@ -13,6 +13,7 @@ public class Rectangle extends Shape {
         this.width = width;
     }
 
+    // getter and setter
     public double getLength() {
         return length;
     }
@@ -30,15 +31,16 @@ public class Rectangle extends Shape {
     }
 
     public void computeArea() {
-        System.out.println("The rectangle area is "+ length*width);
+        System.out.println("The rectangle area is "+ length * width);
     }
 
     public void computePerimeter() {
-        System.out.println("The rectangle perimeter is "+ 2* (length + width));
+        System.out.println("The rectangle perimeter is "+ 2 * (length + width));
     }
 
+    @Override
     public void display() {
-        System.out.println("The name is " + this.getName()); //
+        System.out.println("The name is " + this.getName());
         this.computeArea();
         this.computePerimeter();
     }
