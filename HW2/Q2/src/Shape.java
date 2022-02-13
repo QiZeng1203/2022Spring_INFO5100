@@ -54,11 +54,9 @@ public class Shape {
         this.perimeter = perimeter;
     }
 
-    //
-    public String printShape() {
-        return getName();
+    public void printShape() {
+        System.out.println("******************************");
+        System.out.println("The area of " + this.getName() + " is " + this.getArea());
+        System.out.println("The perimeter of " + this.getName() + " is "+ this.getPerimeter());
     }
-
-
-
 }
