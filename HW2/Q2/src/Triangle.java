@@ -40,6 +40,6 @@ public class Triangle extends Shape {
 
     @Override
     public float getPerimeter() {
-        return base * 3;
+        return (float) (base + 2 * Math.sqrt(Math.pow((base / 2),2) + Math.pow(height, 2)));
     }
 }
