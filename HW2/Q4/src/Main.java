@@ -33,26 +33,26 @@ public class Main {
         Arrays.sort(players, myComparator);
         System.out.println("*************/a object of Comparator");
         printPlayers(players);
-        System.out.println("*************/inside arrays.sort");
-        Arrays.sort(players, new Comparator<Player>() {
-            @Override
-            public int compare(Player o1, Player o2) {
-                if(o1.getScore() < o2.getScore()) {
-                    return 1;
-                }
-                else if(o1.getScore() > o2.getScore()) {
-                    return -1;
-                }
-                else {
-                    return o1.getName().compareTo(o2.getName());
-                }
-            }
-        });
-        printPlayers(players);
+//        System.out.println("*************/inside arrays.sort");
+//        Arrays.sort(players, new Comparator<Player>() {
+//            @Override
+//            public int compare(Player o1, Player o2) {
+//                if(o1.getScore() < o2.getScore()) {
+//                    return 1;
+//                }
+//                else if(o1.getScore() > o2.getScore()) {
+//                    return -1;
+//                }
+//                else {
+//                    return o1.getName().compareTo(o2.getName());
+//                }
+//            }
+//        });
+//        printPlayers(players);
 
-        System.out.println("*************/by class");
-        Arrays.sort(players, new myComparatorClass());
-        printPlayers(players);
+//        System.out.println("*************/by class");
+//        Arrays.sort(players, new myComparatorClass());
+//        printPlayers(players);
 
     }
 
@@ -66,7 +66,7 @@ public class Main {
         }
     }
 
-    public static class myComparatorClass implements Comparator<Player> {
+ /*   public static class myComparatorClass implements Comparator<Player> {
         @Override
         public int compare(Player o1, Player o2) {
             if(o1.getScore() < o2.getScore()) {
@@ -79,5 +79,5 @@ public class Main {
                 return o1.getName().compareTo(o2.getName());
             }
         }
-    }
+    }*/
 }
