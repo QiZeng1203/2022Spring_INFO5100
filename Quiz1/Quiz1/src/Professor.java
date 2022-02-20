@@ -3,7 +3,6 @@ public class Professor extends Person {
 
     public Professor() {
         super();
-        this.giveQuiz = giveQuiz;
     }
 
     public void Professor (String giveQuiz) {
