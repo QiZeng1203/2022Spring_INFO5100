@@ -5,7 +5,7 @@ public class Professor extends Person {
         super();
     }
 
-    public void Professor (String giveQuiz) {
+    public void Professor () {
         System.out.println("Professor is giving Quiz");
     }
 }
