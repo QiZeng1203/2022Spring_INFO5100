@@ -4,7 +4,7 @@ public class Student {
         super();
     }
 
-    public void Student() {
+    public void takeQuiz() {
         System.out.println("Student is taking Quiz");
     }
 }

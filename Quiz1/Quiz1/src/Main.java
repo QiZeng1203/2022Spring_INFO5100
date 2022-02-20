@@ -5,5 +5,8 @@ public class Main {
         Professor pro = new Professor();
         Student Stu = new Student();
 
+        pro.giveQuiz();
+        Stu.takeQuiz();
+
     }
 }
