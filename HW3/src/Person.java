@@ -25,9 +25,8 @@ public class Person {
 
     public void getNotification(SeattlePoliceDepartment spd) {
         System.out.println("********");
-        System.out.println("Notification: " + spd.alert);
-        System.out.println("Person Name: " + this.getName());
-        System.out.println("********");
+        System.out.println("Alert: " + spd.alert);
+        System.out.println("Subscriber Name: " + this.getName());
     }
 
     public void subscribe(SeattlePoliceDepartment spd) {
