@@ -15,6 +15,7 @@ public class Happy extends Moody{
 
     @Override
     void queryMood() {
-
+        System.out.println(getMood());
+        expressFeelings();
     }
 }

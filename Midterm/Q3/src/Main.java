@@ -13,14 +13,16 @@ public class Main {
         Happy happy = new Happy();
 
         psychiatrist.examine(happy);
-        System.out.println(happy.getMood());
-        happy.expressFeelings();
-        System.out.println(happy.toString());
+        psychiatrist.observe(happy);
+        //System.out.println(happy.getMood());
+        //happy.expressFeelings();
+        //System.out.println(happy.toString());
 
         psychiatrist.examine(sad);
-        System.out.println(sad.getMood());
-        sad.expressFeelings();
-        System.out.println(sad.toString());
+        psychiatrist.observe(sad);
+        //System.out.println(sad.getMood());
+        //sad.expressFeelings();
+        //System.out.println(sad.toString());
 
     }
 }

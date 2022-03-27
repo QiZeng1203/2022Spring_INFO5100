@@ -12,7 +12,8 @@ public class Sad extends Moody{
 
     @Override
     void queryMood() {
-
+        System.out.println(getMood());
+        expressFeelings();
     }
 
     //returns message about self : “Subject cries a lot”
